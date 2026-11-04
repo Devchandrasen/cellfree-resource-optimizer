@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cellfree-resource-optimizer"
+version = "0.1.0"
+description = "Budgeted access-point, serving-mode and power optimization for cell-free wireless networks"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Chandrasen Pandey"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.13,<2",
+  "clarabel==0.11.1",
+  "threadpoolctl>=3.5,<4",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.9,<4"]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1", "build>=1.2,<2", "matplotlib>=3.9,<4"]
+
+[project.scripts]
+cellfree = "cellfree_optimizer.cli:main"
+
+[project.urls]
+Repository = "https://github.com/Devchandrasen/cellfree-resource-optimizer"
+Issues = "https://github.com/Devchandrasen/cellfree-resource-optimizer/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/cellfree_optimizer/_engine/*.py" = ["F401", "F841", "E741"]

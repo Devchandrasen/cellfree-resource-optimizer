@@ -1,0 +1,4 @@
+include NOTICE README.md CHANGELOG.md CONTRIBUTING.md requirements-tested.txt
+recursive-include docs *.md *.svg *.png
+recursive-include examples *.json *.py
+recursive-include matlab *.m *.md

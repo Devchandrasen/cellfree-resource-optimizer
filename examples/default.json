@@ -1,0 +1,9 @@
+{
+  "aps": 14,
+  "antennas": 8,
+  "users": 10,
+  "max_aps": 8,
+  "fronthaul": 4.0,
+  "fronthaul_ratio": 7.0,
+  "seed": 7
+}

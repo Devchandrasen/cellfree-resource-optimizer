@@ -1,0 +1,10 @@
+{
+  "aps": 6,
+  "antennas": 4,
+  "users": 4,
+  "max_aps": 3,
+  "pilot_length": 4,
+  "fronthaul": 2.0,
+  "fronthaul_ratio": 3.0,
+  "seed": 19
+}

@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible implementation issue.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and configuration
+      description: Share the smallest command and configuration that reproduce the issue.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include Python, NumPy, SciPy and Clarabel versions and the operating system.

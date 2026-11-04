@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="170" viewBox="0 0 1320 170" role="img" aria-labelledby="title desc">
+  <title id="title">From physical inputs to checked allocations</title>
+  <desc id="desc">Generate network, start budget, optimise allocation, validate physics, and export results.</desc>
+  <rect width="1320" height="170" rx="16" fill="#f4f8fb"/>
+  <g stroke="#c6d6e1" stroke-width="2"><path d="M250 85h24m232 0h24m232 0h24m232 0h24"/><path d="M268 80l6 5-6 5m250-10l6 5-6 5m250-10l6 5-6 5m250-10l6 5-6 5" fill="none"/></g>
+  <g fill="#fff" stroke="#dce6ee"><rect x="20" y="24" width="230" height="122" rx="12"/><rect x="276" y="24" width="230" height="122" rx="12"/><rect x="532" y="24" width="230" height="122" rx="12"/><rect x="788" y="24" width="230" height="122" rx="12"/><rect x="1044" y="24" width="256" height="122" rx="12"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g fill="#0d9488" font-size="12" font-weight="700" letter-spacing="1.6"><text x="40" y="54">01 / GENERATE</text><text x="296" y="54">02 / BUDGET</text><text x="552" y="54">03 / ALLOCATE</text><text x="808" y="54">04 / VERIFY</text><text x="1064" y="54">05 / EXPORT</text></g>
+    <g fill="#163047" font-size="19" font-weight="600"><text x="40" y="86">Physical network</text><text x="296" y="86">Fresh deadline</text><text x="552" y="86">Joint resources</text><text x="808" y="86">Check constraints</text><text x="1064" y="86">Portable outputs</text></g>
+    <g fill="#64798c" font-size="13"><text x="40" y="113">Channels and capacities</text><text x="296" y="113">Independent method starts</text><text x="552" y="113">APs, modes, power, flows</text><text x="808" y="113">Accept feasible incumbents</text><text x="1064" y="113">NPZ · JSON · MAT · SVG</text></g>
+  </g>
+</svg>
